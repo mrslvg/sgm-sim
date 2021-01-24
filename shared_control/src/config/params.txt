@@ -1,0 +1,31 @@
+use_haptic_device 1
+hd_deadzone 0.0
+hd_rate_gain 5e-2
+hd_pos_gain 10
+kb_rate_gain 1e-1
+
+w_T_rb_x 0.0
+w_T_rb_y 0.0
+w_T_rb_z 0.76
+
+cycle_time 0.01
+
+slopeTh 0.1
+nearbyTh 50.0              
+ 
+maxForce 7.0
+maxStiff 50.0
+deltaStiffnessPerSecond 20.0
+reactTimeCloser_seconds 3
+reactTimeAway_seconds 1
+reactTimeSteady_seconds 1
+
+debug 1 
+save_data 1
+        
+teleoperation 0
+targeting_assistance 0
+targeting_fixed_assistance 0
+auto_steering_manual_eversion 0
+manual_steering_auto_eversion 0
+full_autonomy 1

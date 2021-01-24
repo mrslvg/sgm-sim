@@ -1,0 +1,5 @@
+connectionAddress 127.0.0.1
+connectionPort 19997
+startSimulation
+
+
