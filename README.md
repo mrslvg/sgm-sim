@@ -2,7 +2,7 @@
 
 This repository contains a simulation environment of a soft growing manipulator. The simulated environment is developed using [Coppelia Sim](http://coppeliarobotics.com "Coppelia Robotics Homepage"). The simulator can be used as standalone (to develop your own application) or with a novint falcon haptic interface (shared control teleoperation code is provided).
 
-![alt text](sgm-simulation.png)
+![alt text](sgm-simulation.gif)
 
 ### Reference 
 If you use this code, please cite our paper: 
@@ -26,7 +26,7 @@ Test your installation
 
 If you want to use the soft growing manipulator simulation and develop your own application, download the scene *scenes/sgm-sim.ttt* and open it in Coppelia Sim.
 
-###Shared control simulation
+###Shared control teleoperation
 
 If you want to use our code to interface the simulation environment or test our shared control teleoperation architectures follow the steps below.
 
@@ -53,11 +53,11 @@ and follow [these instructions](https://github.com/libnifalcon/libnifalcon/blob/
 
 Download the source code or clone this repository with the command
 
-`$ git clone https://github.com/mrslvg/sgm-sim.git`
+`$ git clone https://github.com/mrslvg/sgm-sim.git ~/sgm-sim`
 
 To build the source code
 
-`$ cd sgm-sim/shared-control; mkdir build; cmake ..; make -j8`
+`$ cd ~/sgm-sim/shared-control; mkdir build; cd build; cmake ..; make -j8`
 
 To run the shared control teleoperation, simply run
 
