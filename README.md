@@ -22,11 +22,11 @@ Test your installation
 
 `$ cd ~/CoppeliaSim_Edu_V4_1_0_Ubuntu18_04; ./coppeliaSim.sh`
 
-###Standalone use
+### Standalone use
 
 If you want to use the soft growing manipulator simulation and develop your own application, download the scene *scenes/sgm-sim.ttt* and open it in Coppelia Sim.
 
-###Shared control teleoperation
+### Shared control teleoperation
 
 If you want to use our code to interface the simulation environment or test our shared control teleoperation architectures follow the steps below.
 
