@@ -1,4 +1,4 @@
-# SGM-SIM: a simulator for soft growing manipulators 
+# SGM-SIM: a SIMulator for Soft Growing Manipulators 
 
 This repository contains a simulation environment of a soft growing manipulator. The simulated environment is developed using [Coppelia Sim](http://coppeliarobotics.com "Coppelia Robotics Homepage"). The simulator can be used as standalone (to develop your own application) or with a novint falcon haptic interface (shared control teleoperation code is provided).
 
