@@ -1,12 +1,12 @@
-# SGM-SIM: a SIMulator for Soft Growing Manipulators 
+# SGM-SIM: a Soft Growing Manipulator SIMulator
 
-This repository contains a simulation environment of a soft growing manipulator. The simulated environment is developed using [Coppelia Sim](http://coppeliarobotics.com "Coppelia Robotics Homepage"). The simulator can be used as standalone (to develop your own application) or with a novint falcon haptic interface (shared control teleoperation code is provided).
+This repository contains a soft growing manipulator simulation scenario built in [Coppelia Sim](http://coppeliarobotics.com "Coppelia Robotics Homepage"). The main simulation scene is developed for a shared control teleoperation study using a novint falcon haptic interface (code is provided). However it can be used standalone to develop your own soft growing manipulation application.
 
 ![alt text](sgm-simulation.gif)
 
 ### Reference 
 If you use this code, please cite our paper: 
-*F. Stroppa et al., "Shared control Paradigms on a Soft Growing Manipulator",  Submitted.*
+*F. Stroppa et al., "Shared-control Teleoperation Paradigms on a Soft Growing Manipulator", Submitted.*
 
 # Preliminaries
 ## CoppeliaSim
@@ -64,4 +64,4 @@ To run the shared control teleoperation, simply run
 `$ ./shared-control`
 
 ### Note
-Make sure the Coppelia Sim is open and the scene *sgm-sim.ttt* is correctly loaded.
+Make sure the Coppelia Sim is open and the scene *sgm-sim.ttt* is correctly loaded before executing the last command.
