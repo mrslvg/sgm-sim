@@ -31,8 +31,7 @@ If you want to use the soft growing manipulator simulation and develop your own 
 If you want to use our code to interface the simulation environment or test our shared control teleoperation architectures follow the steps below.
 
 ## Eigen
-Eigen can be downloaded from [this page](http://eigen.tuxfamily.org/
-index.php?title=Main_Page#Download) or cloning its repo
+Eigen can be downloaded from [this page](http://eigen.tuxfamily.org/index.php?title=Main_Page#Download) or cloning its repo
 
 `$ git clone https://gitlab.com/libeigen/eigen.git`
 
